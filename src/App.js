@@ -1,7 +1,9 @@
+import Navbar from './component/Navbar';
+
 function App() {
   return (
     <div>
-      <h3>blog project</h3>
+      <Navbar />
     </div>
   );
 }
