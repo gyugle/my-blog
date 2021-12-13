@@ -1,0 +1,27 @@
+.about {
+  padding: 20px 200px 0px 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  padding: 20px;
+  width: 240px;
+  height: 480px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  list-style: none;
+  top: 50%;
+  font-size: 24px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.list > li {
+  list-style: none;
+  padding: 20px 0 20px 0;
+}
