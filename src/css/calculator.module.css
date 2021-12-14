@@ -1,0 +1,19 @@
+.calculator {
+  padding-left: 30px;
+}
+
+.result {
+  margin: 0;
+  border: solid 0.8px;
+  width: 239px;
+  height: 50px;
+}
+button {
+  margin: 0;
+  width: 60px;
+  height: 50px;
+}
+
+.zero {
+  width: 120px;
+}
