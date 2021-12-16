@@ -6,7 +6,6 @@ function DetailMovie() {
   const [loading, setLoading] = useState(true);
   const movie = useParams();
   const idNum = movie.id.replace(':', '');
-  console.log(idNum);
 
   const getDetail = async () => {
     const response = await fetch(
@@ -16,7 +15,8 @@ function DetailMovie() {
     setDetail(json);
     setLoading(false);
   };
-  useEffect(() => getDetail(), []);
+
+  useEffect(() => getDetail(), [movie]);
   return (
     <div>
       {loading ? (
@@ -27,10 +27,11 @@ function DetailMovie() {
           poster={detail.poster_path}
           title={detail.title}
           release={detail.release_date}
+          genres={detail.genres}
           rating={detail.vote_average}
           runtime={detail.runtime}
           overview={detail.overview}
-        ></Detail>
+        />
       )}
     </div>
   );
