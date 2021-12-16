@@ -1,0 +1,38 @@
+.bgImg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.35;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+}
+
+.detail {
+  padding: 10px 60px 0 120px;
+  display: flex;
+  justify-content: space-around;
+}
+.detail > ul {
+  padding: 0;
+}
+
+.description {
+  padding-left: 60px;
+}
+
+.btn {
+  background-color: transparent;
+  padding-top: 15px;
+  padding-left: 30px;
+  border: 0;
+  outline: 0;
+}
+.backBtn {
+  width: 50px;
+}
+
+.overview {
+  width: 50%;
+}
