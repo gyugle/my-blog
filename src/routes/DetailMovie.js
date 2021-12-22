@@ -16,7 +16,8 @@ function DetailMovie() {
     setLoading(false);
   };
 
-  useEffect(() => getDetail(), [movie]);
+  useEffect(() => getDetail());
+
   return (
     <div>
       {loading ? (
