@@ -18,8 +18,12 @@ function Navbar() {
           <li>
             <Link to="/movies">Movies</Link>
           </li>
-          <li>Project</li>
-          <li>Project</li>
+          <li>
+            <Link to="/board">Board</Link>
+          </li>
+          <li>
+            <Link to="/todo">Todo</Link>
+          </li>
           <li>
             <Link to="/about">About me</Link>
           </li>
