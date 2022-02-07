@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import calImg from '../img/example.png';
 import styles from '../css/calculator.module.css';
 function Calculator() {
   let fomula = [];
@@ -28,11 +29,7 @@ function Calculator() {
     <div>
       <h2 className={styles.title}>Calculator</h2>
       <div className={styles.compare}>
-        <img
-          width={'320px'}
-          src={require('../img/example.png').default}
-          alt="example"
-        />
+        <img width={'240px'} src={calImg} alt="example" />
         <div className={styles.calculator}>
           <h2 className={styles.result}>{result}</h2>
           <button onClick={resetValue} value="AC">
